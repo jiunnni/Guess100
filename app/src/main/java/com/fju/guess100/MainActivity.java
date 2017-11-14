@@ -16,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
         EditText edinfo=(EditText)findViewById(R.id.info);
         EditText ednumber =(EditText)findViewById(R.id.number);
         EditText esend=(EditText)findViewById(R.id.send);
+        float weight=Float.parseFloat(edsecert.getText().toString());
+        float weight=Float.parseFloat(edinfo.getText().toString());
+        float weight=Float.parseFloat(ednumber.getText().toString());
+
+        float weight=Float.parseFloat(edsend.getText().toString());
     }
 
        }
